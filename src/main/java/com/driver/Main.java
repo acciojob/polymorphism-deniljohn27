@@ -14,17 +14,13 @@ public class Main {
 }
 class Product{
     public int product(int x, int y) {
-        int ans=x*y;
-        return ans;
+        return x*y;
     }
     public int product(int x, int y, int z) {
-
-        int secondAnswer=x*y*z;
-        return secondAnswer;
+        return x*y*z;
     }
 
     public double product(double x, double y) {
-        double thirdAnswer=x*y;
-        return thirdAnswer;
+        return  x*y;
     }
 }
