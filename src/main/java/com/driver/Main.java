@@ -2,13 +2,14 @@ package com.driver;
 
 public class Main {
 
-    Product p = new Product();
+    public static void main(String[] args) {
+        Product p = new Product();
 
-    int ansValue = p.product(2,3);
+        p.product(2,3);
+        p.product(2,3,4);
+        p.product(2.1,2.9);
+    }
 
-    int secondAnswerValue=p.product(2,3,4);
-
-    double thirdAnswerValue=p.product(2.1,2.9);
 
 }
 class Product{
